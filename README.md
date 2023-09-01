@@ -1,5 +1,14 @@
-The App.ipynb notebook creates a functioning simple web application that could be used for monitoring customer satisfaction.
-The application consists of three screens and allows users to enter reviews, which are saved in an SQLite database. 
-It also enables the display of all reviews in a tabular form from the SQLite database and provides an overview of key phrases used in the review text in the form of a word cloud.
+#### Introduction
+The App.ipynb notebook creates a simple web application that could be used for monitoring customer satisfaction. It had an educational purpose to learn basics of Flask app creation. 
 
-The application is built using Flask and ngrok tools. The script has been configured to run on Google Colab.
+#### Overview
+The application consists of three screens:
+- main page: landing page displaying options for a user
+- word cloud: provides an overview of key phrases used in the review text
+- all reviews by participants: enables the display of all reviews in a tabular form from the SQLite database
+- add review: allows users to enter reviews which are saved in an SQLite database.
+
+#### Tech methods
+- application is built using Flask and ngrok tools
+- the script has been configured to run on Google Colab 
+- NLP: word cloud with basic text processing.
