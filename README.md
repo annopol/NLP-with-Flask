@@ -12,3 +12,7 @@ The application consists of three screens:
 - application is built using Flask and ngrok tools
 - the script has been configured to run on Google Colab 
 - NLP: word cloud with basic text processing.
+
+#### Possible next steps: 
+- web scraping of forum website about a specific product
+- sentiment analysis on the text
